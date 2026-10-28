@@ -1,0 +1,35 @@
+clocks in slack tables: ['CLOCK_50', 'altera_reserved_tck', 'hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sys_hps_0_hps_io:hps_io|hps_sys_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk', 'hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sys_hps_0_hps_io:hps_io|hps_sys_hps_0_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk', 'u_board|u_pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]', 'u_board|u_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk']
+ok    hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sy Slow 1100mV 85C Model Setup slack    1.730  TNS    0.000
+ok    altera_reserved_tck                      Slow 1100mV 85C Model Setup slack   15.112  TNS    0.000
+ok    CLOCK_50                                 Slow 1100mV 85C Model Setup slack   17.361  TNS    0.000
+ok    u_board|u_pll|altera_pll_i|general[0].gp Slow 1100mV 85C Model Setup slack   18.493  TNS    0.000
+ok    hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sy Slow 1100mV 85C Model Hold slack    0.143  TNS    0.000
+ok    u_board|u_pll|altera_pll_i|general[0].gp Slow 1100mV 85C Model Hold slack    0.209  TNS    0.000
+ok    CLOCK_50                                 Slow 1100mV 85C Model Hold slack    0.234  TNS    0.000
+ok    altera_reserved_tck                      Slow 1100mV 85C Model Hold slack    0.307  TNS    0.000
+ok    hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sy Slow 1100mV 0C Model Setup slack    1.727  TNS    0.000
+ok    altera_reserved_tck                      Slow 1100mV 0C Model Setup slack   15.242  TNS    0.000
+ok    CLOCK_50                                 Slow 1100mV 0C Model Setup slack   17.219  TNS    0.000
+ok    u_board|u_pll|altera_pll_i|general[0].gp Slow 1100mV 0C Model Setup slack   18.874  TNS    0.000
+ok    hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sy Slow 1100mV 0C Model Hold  slack    0.162  TNS    0.000
+ok    u_board|u_pll|altera_pll_i|general[0].gp Slow 1100mV 0C Model Hold  slack    0.194  TNS    0.000
+ok    CLOCK_50                                 Slow 1100mV 0C Model Hold  slack    0.222  TNS    0.000
+ok    altera_reserved_tck                      Slow 1100mV 0C Model Hold  slack    0.288  TNS    0.000
+ok    hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sy Fast 1100mV 85C Model Setup slack    2.110  TNS    0.000
+ok    altera_reserved_tck                      Fast 1100mV 85C Model Setup slack   17.515  TNS    0.000
+ok    CLOCK_50                                 Fast 1100mV 85C Model Setup slack   18.590  TNS    0.000
+ok    u_board|u_pll|altera_pll_i|general[0].gp Fast 1100mV 85C Model Setup slack   26.621  TNS    0.000
+ok    hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sy Fast 1100mV 85C Model Hold slack    0.084  TNS    0.000
+ok    altera_reserved_tck                      Fast 1100mV 85C Model Hold slack    0.126  TNS    0.000
+ok    u_board|u_pll|altera_pll_i|general[0].gp Fast 1100mV 85C Model Hold slack    0.130  TNS    0.000
+ok    CLOCK_50                                 Fast 1100mV 85C Model Hold slack    0.134  TNS    0.000
+ok    hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sy Fast 1100mV 0C Model Setup slack    2.110  TNS    0.000
+ok    altera_reserved_tck                      Fast 1100mV 0C Model Setup slack   17.890  TNS    0.000
+ok    CLOCK_50                                 Fast 1100mV 0C Model Setup slack   18.604  TNS    0.000
+ok    u_board|u_pll|altera_pll_i|general[0].gp Fast 1100mV 0C Model Setup slack   27.980  TNS    0.000
+ok    hps_sys:u_hps|hps_sys_hps_0:hps_0|hps_sy Fast 1100mV 0C Model Hold  slack    0.077  TNS    0.000
+ok    altera_reserved_tck                      Fast 1100mV 0C Model Hold  slack    0.099  TNS    0.000
+ok    u_board|u_pll|altera_pll_i|general[0].gp Fast 1100mV 0C Model Hold  slack    0.117  TNS    0.000
+ok    CLOCK_50                                 Fast 1100mV 0C Model Hold  slack    0.122  TNS    0.000
+STA: PASS
+STA: PASS

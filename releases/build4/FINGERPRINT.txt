@@ -1,0 +1,1 @@
+build4 (BUILD=0x0004, started 2026-10-26 22:40): RTL fingerprint c07673f5e8a113ea (sha256 of rtl/*); + jtag_host.qsys, thermal.qsf/.sdc copied here

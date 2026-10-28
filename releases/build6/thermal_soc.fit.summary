@@ -1,0 +1,20 @@
+Fitter Status : Successful - Tue Oct 27 22:46:36 2026
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : thermal_soc
+Top-level Entity Name : thermal_soc_top
+Family : Cyclone V
+Device : 5CSXFC6D6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 8,575 / 41,910 ( 20 % )
+Total registers : 9869
+Total pins : 232 / 499 ( 46 % )
+Total virtual pins : 0
+Total block memory bits : 4,829,558 / 5,662,720 ( 85 % )
+Total RAM Blocks : 551 / 553 ( 100 % )
+Total DSP Blocks : 31 / 112 ( 28 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 1 / 15 ( 7 % )
+Total DLLs : 1 / 4 ( 25 % )

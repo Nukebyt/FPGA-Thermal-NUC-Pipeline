@@ -1,0 +1,48 @@
+# thermal.qsf -- self-calibrating thermal NUC + motion detection, DE10-Standard (Cyclone V 5CSXFC6D6F31C6)
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY thermal_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.0 Lite Edition"
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+
+set_global_assignment -name VERILOG_FILE ../../rtl/thermal_top.v
+set_global_assignment -name VERILOG_FILE ../../rtl/thermal_board.v
+set_global_assignment -name VERILOG_FILE ../../rtl/scene_buf.v
+set_global_assignment -name VERILOG_FILE ../../rtl/thermal_sys.v
+set_global_assignment -name VERILOG_FILE ../../rtl/thermal_core.v
+set_global_assignment -name VERILOG_FILE ../../rtl/nuc_core.v
+set_global_assignment -name VERILOG_FILE ../../rtl/bg_detect.v
+set_global_assignment -name VERILOG_FILE ../../rtl/morph3.v
+set_global_assignment -name VERILOG_FILE ../../rtl/row_retimer.v
+set_global_assignment -name VERILOG_FILE ../../rtl/ccl_boxes.v
+set_global_assignment -name VERILOG_FILE ../../rtl/ccl_slot.v
+set_global_assignment -name VERILOG_FILE ../../rtl/win3x3.v
+set_global_assignment -name VERILOG_FILE ../../rtl/grid_ctr.v
+set_global_assignment -name VERILOG_FILE ../../rtl/sensor_emu.v
+set_global_assignment -name VERILOG_FILE ../../rtl/hash32.v
+set_global_assignment -name VERILOG_FILE ../../rtl/rom_sp.v
+set_global_assignment -name VERILOG_FILE ../../rtl/ram_sdp.v
+set_global_assignment -name VERILOG_FILE ../../rtl/disp_path.v
+set_global_assignment -name VERILOG_FILE ../../rtl/tone_win.v
+set_global_assignment -name VERILOG_FILE ../../rtl/csr_regs.v
+set_global_assignment -name VERILOG_FILE ../../rtl/vga_timing.v
+set_global_assignment -name VERILOG_FILE ../../rtl/tick_gen.v
+set_global_assignment -name VERILOG_FILE ../../rtl/key_pulse.v
+set_global_assignment -name VERILOG_FILE ../../rtl/reset_sync.v
+set_global_assignment -name VERILOG_FILE ../../rtl/hex7seg.v
+set_global_assignment -name VERILOG_FILE ../../rtl/frame_cap.v
+set_global_assignment -name VERILOG_FILE ../../rtl/host_if.v
+set_global_assignment -name QIP_FILE ../ip/jtag_host/jtag_host/synthesis/jtag_host.qip
+set_global_assignment -name VERILOG_FILE ../ip/pll25/pll25.v
+set_global_assignment -name QIP_FILE ../ip/pll25/pll25.qip
+set_global_assignment -name SDC_FILE thermal.sdc
+
+
+# Pin locations and IO standards: generated from the Terasic golden top (scripts/gen_pins.sh) + two GPIO markers
+set_global_assignment -name SOURCE_TCL_SCRIPT_FILE ../pins/de10_pins.tcl
+set_global_assignment -name SOURCE_TCL_SCRIPT_FILE ../pins/gpio_pins.tcl
+
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+set_parameter -name BUILD 5

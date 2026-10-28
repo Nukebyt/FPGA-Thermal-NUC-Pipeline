@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="860" viewBox="0 0 1420 860" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+<defs>
+<marker id="a374151" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker>
+<marker id="s374151" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M10,0 L0,5 L10,10 z" fill="#374151"/></marker>
+<marker id="a2563eb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="s2563eb" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M10,0 L0,5 L10,10 z" fill="#2563eb"/></marker>
+<marker id="aea580c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker>
+<marker id="sea580c" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M10,0 L0,5 L10,10 z" fill="#ea580c"/></marker>
+<marker id="a16a34a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+<marker id="s16a34a" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M10,0 L0,5 L10,10 z" fill="#16a34a"/></marker>
+<marker id="a7c3aed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+<marker id="s7c3aed" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M10,0 L0,5 L10,10 z" fill="#7c3aed"/></marker>
+</defs>
+<rect width="1420" height="860" rx="18" fill="#ffffff"/>
+<rect x="20" y="30" width="262" height="790" rx="16" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+<text x="36" y="57" font-size="16" font-weight="700" fill="#9ca3af">Laptop</text>
+<text x="36" y="75" font-size="12" fill="#4b5563">Windows, Python 3.13</text>
+<rect x="40" y="90" width="222" height="100" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<text x="151.0" y="118.5" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Thermal clips</text>
+<text x="151.0" y="135.5" font-size="11.5" fill="#4b5563" text-anchor="middle">CDnet 2014: library, corridor,</text>
+<text x="151.0" y="152.5" font-size="11.5" fill="#4b5563" text-anchor="middle">diningRoom, park, lakeSide</text>
+<text x="151.0" y="169.5" font-size="11.5" fill="#4b5563" text-anchor="middle">320x240, 8 bit (prepare_clips.py)</text>
+<rect x="40" y="225" width="222" height="100" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<rect x="40" y="231" width="6" height="88" rx="3" fill="#2563eb"/>
+<text x="154.0" y="253.5" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">run_demo.py</text>
+<text x="154.0" y="270.5" font-size="11.5" fill="#4b5563" text-anchor="middle">copies the clips to the board,</text>
+<text x="154.0" y="287.5" font-size="11.5" fill="#4b5563" text-anchor="middle">sets T_MASK per scene, resets</text>
+<text x="154.0" y="304.5" font-size="11.5" fill="#4b5563" text-anchor="middle">the NUC, plays a playlist</text>
+<rect x="40" y="370" width="222" height="100" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<rect x="40" y="376" width="6" height="88" rx="3" fill="#7c3aed"/>
+<text x="154.0" y="398.5" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">viewer.py (OpenCV)</text>
+<text x="154.0" y="415.5" font-size="11.5" fill="#4b5563" text-anchor="middle">raw | NUC-corrected, thermal</text>
+<text x="154.0" y="432.5" font-size="11.5" fill="#4b5563" text-anchor="middle">colours, motion boxes,</text>
+<text x="154.0" y="449.5" font-size="11.5" fill="#4b5563" text-anchor="middle">status and latency line</text>
+<rect x="40" y="560" width="222" height="100" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<rect x="40" y="566" width="6" height="88" rx="3" fill="#9ca3af"/>
+<text x="154.0" y="588.5" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">USB-Blaster (optional)</text>
+<text x="154.0" y="605.5" font-size="11.5" fill="#4b5563" text-anchor="middle">viewer.py over JTAG: 6 MHz</text>
+<text x="154.0" y="622.5" font-size="11.5" fill="#4b5563" text-anchor="middle">JTAG clock, slow but needs</text>
+<text x="154.0" y="639.5" font-size="11.5" fill="#4b5563" text-anchor="middle">no network</text>
+<rect x="40" y="700" width="222" height="90" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<text x="151.0" y="723.5" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Reproducibility</text>
+<text x="151.0" y="740.5" font-size="11.5" fill="#4b5563" text-anchor="middle">Python bit-accurate model,</text>
+<text x="151.0" y="757.5" font-size="11.5" fill="#4b5563" text-anchor="middle">Icarus testbenches, mutation</text>
+<text x="151.0" y="774.5" font-size="11.5" fill="#4b5563" text-anchor="middle">self-test (scripts/)</text>
+<path d="M 151,190 L 151,225" fill="none" stroke="#374151" stroke-width="2"  marker-end="url(#a374151)" />
+<rect x="350" y="30" width="1050" height="790" rx="16" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+<text x="366" y="57" font-size="16" font-weight="700" fill="#6b7280">DE10-Standard board</text>
+<text x="366" y="75" font-size="12" fill="#4b5563">Cyclone V SoC 5CSXFC6D6F31C6: HPS (ARM) and FPGA fabric in one chip</text>
+<rect x="370" y="90" width="270" height="420" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="386" y="117" font-size="16" font-weight="700" fill="#2563eb">HPS: ARM Cortex-A9, Linux</text>
+<text x="386" y="135" font-size="12" fill="#4b5563">Terasic image, started from the SD card</text>
+<rect x="388" y="145" width="234" height="128" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<rect x="388" y="151" width="6" height="116" rx="3" fill="#2563eb"/>
+<text x="508.0" y="179.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">frame_feeder (C, static ARM binary)</text>
+<text x="508.0" y="196.0" font-size="11.5" fill="#4b5563" text-anchor="middle">serve: TCP :5002, register and picture</text>
+<text x="508.0" y="213.0" font-size="11.5" fill="#4b5563" text-anchor="middle">access for the laptop</text>
+<text x="508.0" y="230.0" font-size="11.5" fill="#4b5563" text-anchor="middle">play: loops a clip from /tmp</text>
+<text x="508.0" y="247.0" font-size="11.5" fill="#4b5563" text-anchor="middle">chase writer: never a torn frame</text>
+<rect x="388" y="295" width="234" height="66" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<text x="505.0" y="323.5" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">/tmp RAM disk</text>
+<text x="505.0" y="340.5" font-size="11.5" fill="#4b5563" text-anchor="middle">the clips (the SD card has no room)</text>
+<rect x="388" y="383" width="234" height="66" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<text x="505.0" y="411.5" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Ethernet + ssh / scp</text>
+<text x="505.0" y="428.5" font-size="11.5" fill="#4b5563" text-anchor="middle">192.168.137.200 (Windows ICS)</text>
+<rect x="388" y="463" width="234" height="34" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<text x="505.0" y="484.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">SD card boots the FPGA image</text>
+<rect x="655" y="130" width="62" height="340" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.8"/>
+<text transform="translate(692,300) rotate(-90)" font-size="13" font-weight="700" fill="#1e3a8a" text-anchor="middle">lightweight HPS-to-FPGA bridge, 0xFF200000</text>
+<rect x="735" y="90" width="650" height="700" rx="16" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="751" y="117" font-size="16" font-weight="700" fill="#ea580c">FPGA fabric</text>
+<text x="751" y="135" font-size="12" fill="#4b5563">25 MHz pixel clock, 8,575 ALMs (20 %), 551 of 553 RAM blocks</text>
+<rect x="752" y="158" width="124" height="440" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<text x="814.0" y="254.5" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Host bus</text>
+<text x="814.0" y="271.5" font-size="11.5" fill="#4b5563" text-anchor="middle">Avalon-MM slave</text>
+<text x="814.0" y="288.5" font-size="11.5" fill="#4b5563" text-anchor="middle">(host_if)</text>
+<text x="814.0" y="305.5" font-size="11.5" fill="#4b5563" text-anchor="middle"></text>
+<text x="814.0" y="322.5" font-size="11.5" fill="#4b5563" text-anchor="middle">0x00000</text>
+<text x="814.0" y="339.5" font-size="11.5" fill="#4b5563" text-anchor="middle">CSRs: controls,</text>
+<text x="814.0" y="356.5" font-size="11.5" fill="#4b5563" text-anchor="middle">T_MASK, LEARN_N,</text>
+<text x="814.0" y="373.5" font-size="11.5" fill="#4b5563" text-anchor="middle">status, latency</text>
+<text x="814.0" y="390.5" font-size="11.5" fill="#4b5563" text-anchor="middle"></text>
+<text x="814.0" y="407.5" font-size="11.5" fill="#4b5563" text-anchor="middle">0x20000</text>
+<text x="814.0" y="424.5" font-size="11.5" fill="#4b5563" text-anchor="middle">capture buffer</text>
+<text x="814.0" y="441.5" font-size="11.5" fill="#4b5563" text-anchor="middle">(read)</text>
+<text x="814.0" y="458.5" font-size="11.5" fill="#4b5563" text-anchor="middle"></text>
+<text x="814.0" y="475.5" font-size="11.5" fill="#4b5563" text-anchor="middle">0x40000</text>
+<text x="814.0" y="492.5" font-size="11.5" fill="#4b5563" text-anchor="middle">scene store</text>
+<text x="814.0" y="509.5" font-size="11.5" fill="#4b5563" text-anchor="middle">(write)</text>
+<rect x="752" y="618" width="124" height="70" rx="9" fill="#ffffff" stroke="#9ca3af" stroke-width="1.6"/>
+<text x="814.0" y="648.5" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">JTAG-to-Avalon</text>
+<text x="814.0" y="665.5" font-size="11.5" fill="#4b5563" text-anchor="middle">master (Qsys)</text>
+<path d="M 814,618 L 814,598" fill="none" stroke="#374151" stroke-width="2"  marker-end="url(#a374151)" />
+<rect x="900" y="158" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<rect x="900" y="164" width="6" height="72" rx="3" fill="#2563eb"/>
+<text x="972.0" y="187.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Scene store</text>
+<text x="972.0" y="204.0" font-size="11.5" fill="#4b5563" text-anchor="middle">320x240x8 bit</text>
+<text x="972.0" y="221.0" font-size="11.5" fill="#4b5563" text-anchor="middle">written by the ARM</text>
+<rect x="1062" y="158" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<text x="1131.0" y="187.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Sensor emulator</text>
+<text x="1131.0" y="204.0" font-size="11.5" fill="#4b5563" text-anchor="middle">gain, offset, stripes,</text>
+<text x="1131.0" y="221.0" font-size="11.5" fill="#4b5563" text-anchor="middle">noise, dead/hot px</text>
+<rect x="1224" y="158" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<rect x="1224" y="164" width="6" height="72" rx="3" fill="#16a34a"/>
+<text x="1296.0" y="187.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Scene-based NUC</text>
+<text x="1296.0" y="204.0" font-size="11.5" fill="#4b5563" text-anchor="middle">per-pixel gain + offset</text>
+<text x="1296.0" y="221.0" font-size="11.5" fill="#4b5563" text-anchor="middle">LMS, no shutter</text>
+<path d="M 1038,200 L 1062,200" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<path d="M 1200,200 L 1224,200" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<rect x="1224" y="290" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<rect x="1224" y="296" width="6" height="72" rx="3" fill="#16a34a"/>
+<text x="1296.0" y="319.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Bad-pixel repair</text>
+<text x="1296.0" y="336.0" font-size="11.5" fill="#4b5563" text-anchor="middle">outlier for 8 frames</text>
+<text x="1296.0" y="353.0" font-size="11.5" fill="#4b5563" text-anchor="middle">-&gt; neighbour mean</text>
+<rect x="1062" y="290" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<rect x="1062" y="296" width="6" height="72" rx="3" fill="#16a34a"/>
+<text x="1134.0" y="319.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Motion detector</text>
+<text x="1134.0" y="336.0" font-size="11.5" fill="#4b5563" text-anchor="middle">running background</text>
+<text x="1134.0" y="353.0" font-size="11.5" fill="#4b5563" text-anchor="middle">threshold T_MASK</text>
+<rect x="900" y="290" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<rect x="900" y="296" width="6" height="72" rx="3" fill="#16a34a"/>
+<text x="972.0" y="319.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Open + close</text>
+<text x="972.0" y="336.0" font-size="11.5" fill="#4b5563" text-anchor="middle">3x3 morphology</text>
+<text x="972.0" y="353.0" font-size="11.5" fill="#4b5563" text-anchor="middle">removes speckle</text>
+<path d="M 1293,242 L 1293,290" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<path d="M 1224,332 L 1200,332" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<path d="M 1062,332 L 1038,332" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<rect x="900" y="422" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<rect x="900" y="428" width="6" height="72" rx="3" fill="#16a34a"/>
+<text x="972.0" y="451.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Box extraction</text>
+<text x="972.0" y="468.0" font-size="11.5" fill="#4b5563" text-anchor="middle">connected components,</text>
+<text x="972.0" y="485.0" font-size="11.5" fill="#4b5563" text-anchor="middle">up to 16 boxes</text>
+<rect x="1062" y="422" width="138" height="84" rx="9" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.6"/>
+<text x="1131.0" y="451.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Box list + flag</text>
+<text x="1131.0" y="468.0" font-size="11.5" fill="#4b5563" text-anchor="middle">published a fixed</text>
+<text x="1131.0" y="485.0" font-size="11.5" fill="#4b5563" text-anchor="middle">8,724 cycles later</text>
+<rect x="1224" y="422" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<text x="1293.0" y="451.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Display path</text>
+<text x="1293.0" y="468.0" font-size="11.5" fill="#4b5563" text-anchor="middle">auto contrast, palette,</text>
+<text x="1293.0" y="485.0" font-size="11.5" fill="#4b5563" text-anchor="middle">box overlay</text>
+<path d="M 969,374 L 969,422" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<path d="M 1038,464 L 1062,464" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<path d="M 1200,464 L 1224,464" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<path d="M 1293,374 L 1293,422" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<rect x="900" y="554" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<text x="969.0" y="583.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Frame capture</text>
+<text x="969.0" y="600.0" font-size="11.5" fill="#4b5563" text-anchor="middle">raw or corrected</text>
+<text x="969.0" y="617.0" font-size="11.5" fill="#4b5563" text-anchor="middle">one whole frame</text>
+<rect x="1062" y="554" width="138" height="84" rx="9" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.6"/>
+<text x="1131.0" y="583.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">Latency counters</text>
+<text x="1131.0" y="600.0" font-size="11.5" fill="#4b5563" text-anchor="middle">end of frame -&gt; boxes:</text>
+<text x="1131.0" y="617.0" font-size="11.5" fill="#4b5563" text-anchor="middle">min = max = 349 us</text>
+<rect x="1224" y="554" width="138" height="84" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+<text x="1293.0" y="583.0" font-size="13" font-weight="700" fill="#111827" text-anchor="middle">VGA 640x480</text>
+<text x="1293.0" y="600.0" font-size="11.5" fill="#4b5563" text-anchor="middle">60 Hz, optional</text>
+<text x="1293.0" y="617.0" font-size="11.5" fill="#4b5563" text-anchor="middle">monitor output</text>
+<path d="M 1293,506 L 1293,554" fill="none" stroke="#ea580c" stroke-width="2"  marker-end="url(#aea580c)" />
+<path d="M 1131,506 L 1131,554" fill="none" stroke="#16a34a" stroke-width="2"  marker-end="url(#a16a34a)" />
+<path d="M 876,200 L 900,200" fill="none" stroke="#374151" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a374151)" />
+<path d="M 900,574 L 876,574" fill="none" stroke="#374151" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a374151)" />
+<path d="M 262,275 L 370,275" fill="none" stroke="#2563eb" stroke-width="2"  marker-end="url(#a2563eb)" marker-start="url(#s2563eb)"/>
+<text x="316" y="238" font-size="11.5" fill="#2563eb" text-anchor="middle" font-weight="600">Ethernet</text>
+<text x="316" y="252" font-size="11.5" fill="#2563eb" text-anchor="middle" font-weight="600">ssh / scp</text>
+<path d="M 262,420 L 370,420" fill="none" stroke="#7c3aed" stroke-width="2"  marker-end="url(#a7c3aed)" marker-start="url(#s7c3aed)"/>
+<text x="316" y="369" font-size="11.5" fill="#7c3aed" text-anchor="middle" font-weight="600">TCP :5002</text>
+<text x="316" y="383" font-size="11.5" fill="#7c3aed" text-anchor="middle" font-weight="600">registers,</text>
+<text x="316" y="397" font-size="11.5" fill="#7c3aed" text-anchor="middle" font-weight="600">pictures</text>
+<path d="M 622,215 L 655,215" fill="none" stroke="#2563eb" stroke-width="2"  marker-end="url(#a2563eb)" marker-start="url(#s2563eb)"/>
+<path d="M 717,215 L 752,215" fill="none" stroke="#2563eb" stroke-width="2"  marker-end="url(#a2563eb)" marker-start="url(#s2563eb)"/>
+<path d="M 262,610 L 300,610 L 300,812 L 814,812 L 814,688" fill="none" stroke="#6b7280" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a6b7280)" marker-start="url(#s6b7280)"/>
+<text x="364" y="804" font-size="11.5" font-weight="600" fill="#6b7280">USB-Blaster JTAG (6 MHz)</text>
+<rect x="750" y="825" width="12" height="12" rx="3" fill="none" stroke="#ea580c" stroke-width="2"/><text x="768" y="835" font-size="11.5" fill="#4b5563">FPGA stage</text>
+<rect x="860" y="824" width="6" height="14" rx="3" fill="#16a34a"/><text x="874" y="835" font-size="11.5" fill="#4b5563">stage with a fixed latency (feed-forward)</text>
+<path d="M 1130,831 L 1160,831" stroke="#374151" stroke-width="2" /><text x="1168" y="835" font-size="11.5" fill="#4b5563">pixel data</text>
+<path d="M 1240,831 L 1270,831" stroke="#374151" stroke-width="2" stroke-dasharray="6 5"/><text x="1278" y="835" font-size="11.5" fill="#4b5563">control / read-back</text>
+</svg>

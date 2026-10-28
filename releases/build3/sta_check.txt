@@ -1,0 +1,18 @@
+clocks in slack tables: ['CLOCK_50', 'u_pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]', 'u_pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk']
+ok    CLOCK_50                                 Slow 1100mV 85C Model Setup slack   17.458  TNS    0.000
+ok    u_pll|altera_pll_i|general[0].gpll~PLL_O Slow 1100mV 85C Model Setup slack   19.870  TNS    0.000
+ok    u_pll|altera_pll_i|general[0].gpll~PLL_O Slow 1100mV 85C Model Hold slack    0.220  TNS    0.000
+ok    CLOCK_50                                 Slow 1100mV 85C Model Hold slack    0.377  TNS    0.000
+ok    CLOCK_50                                 Slow 1100mV 0C Model Setup slack   17.332  TNS    0.000
+ok    u_pll|altera_pll_i|general[0].gpll~PLL_O Slow 1100mV 0C Model Setup slack   20.096  TNS    0.000
+ok    u_pll|altera_pll_i|general[0].gpll~PLL_O Slow 1100mV 0C Model Hold  slack    0.201  TNS    0.000
+ok    CLOCK_50                                 Slow 1100mV 0C Model Hold  slack    0.376  TNS    0.000
+ok    CLOCK_50                                 Fast 1100mV 85C Model Setup slack   18.636  TNS    0.000
+ok    u_pll|altera_pll_i|general[0].gpll~PLL_O Fast 1100mV 85C Model Setup slack   27.329  TNS    0.000
+ok    u_pll|altera_pll_i|general[0].gpll~PLL_O Fast 1100mV 85C Model Hold slack    0.129  TNS    0.000
+ok    CLOCK_50                                 Fast 1100mV 85C Model Hold slack    0.186  TNS    0.000
+ok    CLOCK_50                                 Fast 1100mV 0C Model Setup slack   18.654  TNS    0.000
+ok    u_pll|altera_pll_i|general[0].gpll~PLL_O Fast 1100mV 0C Model Setup slack   28.856  TNS    0.000
+ok    u_pll|altera_pll_i|general[0].gpll~PLL_O Fast 1100mV 0C Model Hold  slack    0.089  TNS    0.000
+ok    CLOCK_50                                 Fast 1100mV 0C Model Hold  slack    0.178  TNS    0.000
+STA: PASS

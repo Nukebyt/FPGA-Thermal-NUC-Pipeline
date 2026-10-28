@@ -1,0 +1,62 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data and scratch (clips and datasets are rebuilt with scripts/prepare_clips.py; see docs/datasets.md)
+data/
+work/
+cdnet2014/
+
+# Raw recordings (the README uses the GIF in docs/img)
+*.mp4
+
+# Stray files from the Windows shell
+NUL
+
+# Quartus build products and generated IP (rebuild: scripts/build_quartus.sh, scripts/gen_hps_sys.sh, scripts/gen_jtag_host.sh)
+quartus/**/db/
+quartus/**/incremental_db/
+quartus/**/output_files/
+quartus/**/qdb/
+quartus/**/.qsys_edit/
+quartus/**/logs/
+quartus/**/hps_isw_handoff/
+quartus/**/c5_pin_model_dump.txt
+quartus/probe_*/
+quartus/ip/hps_sys/hps_sys/
+quartus/ip/jtag_host/jtag_host/
+*.sopcinfo
+qsys_generate*.log
+qsys_script.log
+*.rpt
+*.smsg
+*.log
+
+# Simulation
+*.vcd
+*.vvp
+*.wlf
+transcript
+
+# Built binaries (make -C sw test / make -C sw arm)
+sw/frame_feeder
+sw/frame_feeder_arm
+sw/frame_feeder_mock
+sw/frame_feeder_mock_arm
+
+# Archived bitstreams: keep the two builds that were run on the board (5: JTAG host bus, 6: ARM feeder), drop the older ones and the stale one
+releases/stale/
+releases/build2/*.sof
+releases/build2/*.rbf
+releases/build3/*.sof
+releases/build3/*.rbf
+releases/build4/*.sof
+releases/build4/*.rbf
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

@@ -1,0 +1,1 @@
+build5 (BUILD=0x0005, started 2026-10-27 13:55): RTL fingerprint 34dc1643264fbefc (sha256 of rtl/*); + jtag_host.qsys, thermal.qsf/.sdc copied here. Changes vs build 4: ccl_boxes result write as 16 fixed slots (bug log 21).

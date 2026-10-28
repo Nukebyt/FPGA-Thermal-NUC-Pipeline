@@ -1,0 +1,1 @@
+build2 (quartus_map started 2026-10-26 18:57): RTL fingerprint aae16192245a0255 (sha256 of rtl/* as in work/build2_rtl_snapshot)

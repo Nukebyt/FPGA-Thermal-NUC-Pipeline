@@ -1,0 +1,1 @@
+build6 (BUILD=0x0006, SoC / HPS feeder, built 2026-10-27 22:48): RTL fingerprint c90f4293a7c408a0 (sha256 of rtl/*); + hps_sys.qsys, thermal_soc.qsf/.sdc copied here. FEED=1 (no ROM, host-written frame store), HPS + JTAG master on one host bus. 8,575 ALMs (20%), 551/553 RAM blocks, STA PASS all corners. Not yet loaded on a board.
